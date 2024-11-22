@@ -1,3 +1,16 @@
-# gontrerasa.github.io on github!
-# Academic website: Intro, Research, CV
-git clone https://github.com/pmichaillat/hugo-website.git
+baseURL: "https://gontrerasa.github.io/" 
+title: Gonzalo Contreras A.
+paginate: 20
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Papers
+          url: /papers/
+          weight: 1
