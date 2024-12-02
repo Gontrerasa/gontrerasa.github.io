@@ -8,13 +8,13 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Gonzalo Contreras / gontrerasa"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Gonzalo Contreras"
+description              : &description "I hold a DPhil in Politics from the University of Oxford. I am currently a Postdoctoral Fellow at the Center for Inter-American Policy & Research (CIPR), Tulane University, and an Adjunct Researcher at the Núcleo Milenio para el Estudio de la Política, Opinión Pública y Medios en Chile (MEPOP)."
+url                      : https://gontrerasa.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "Gontrerasa/gontrerasa.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
