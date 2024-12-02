@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Gonzalo Contreras / gontrerasa"
+title                    : "Gonzalo Contreras"
 title_separator          : "-"
 name                     : &name "Gonzalo Contreras"
 description              : &description "I hold a DPhil in Politics from the University of Oxford. I am currently a Postdoctoral Fellow at the Center for Inter-American Policy & Research (CIPR), Tulane University, and an Adjunct Researcher at the Núcleo Milenio para el Estudio de la Política, Opinión Pública y Medios en Chile (MEPOP)."
@@ -21,8 +21,8 @@ repository               : "Gontrerasa/gontrerasa.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/Profile_Gonzalo Contreras.jpeg"
-  name             : "Your Sidebar Name"
+  avatar           : "Profile_Gonzalo Contreras.jpeg"
+  name             : "Gonzalo Contreras Aguirre"
   pronouns         : # example: "He/him"  
   bio              : "DPhil (PhD) in Politics. University of Oxford"
   location         : "New Orleans, Lousiana"
