@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Gonzalo Contreras"
+title                    : "Gonzalo Contreras Website - Political Research and Publications"
 title_separator          : "-"
 name                     : &name "Gonzalo Contreras"
-description              : &description 
+description              : &description "Official website of Gonzalo Contreras, showcasing research in political science, publications, and book projects."
 url                      : https://gontrerasa.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Gontrerasa/gontrerasa.github.io"
