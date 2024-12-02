@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Gonzalo Contreras Website - Political Research and Publications"
+title                    : "Gonzalo Contreras"
 title_separator          : "-"
 name                     : &name "Gonzalo Contreras"
 description              : &description "Official website of Gonzalo Contreras, showcasing research in political science, publications, and book projects."
