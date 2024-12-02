@@ -24,19 +24,18 @@ author:
   avatar           : "Profile_Gonzalo Contreras.jpeg"
   name             : "Gonzalo Contreras Aguirre"
   pronouns         : # example: "He/him"  
-  bio              : "DPhil (PhD) in Politics. University of Oxford"
+  bio              : "DPhil (PhD) in Politics. University of Oxford. Postdoctoral Fellow at the Center for Inter-American Policy & Research, Tulane University"
   location         : "New Orleans, Lousiana"
-  employer         : "Center for Inter-American Policy & Research. Tulane University"
+  employer         : "Tulane University"
   uri              : # URL
   email            : "gcontrerasaguirre@tulane.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.cl/citations?user=bsi-e88AAAAJ&hl=es"
   impactstory      : # URL
   orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
