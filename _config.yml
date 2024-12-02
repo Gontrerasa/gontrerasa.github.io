@@ -24,7 +24,7 @@ author:
   avatar           : "Profile_Gonzalo Contreras.jpeg"
   name             : "Gonzalo Contreras Aguirre"
   pronouns         : # example: "He/him"  
-  bio              : "DPhil (PhD) in Politics. University of Oxford. Postdoctoral Fellow at the Center for Inter-American Policy & Research, Tulane University"
+  bio              : "DPhil (PhD) in Politics. University of Oxford. Postdoctoral Fellow at the Center for Inter-American Policy & Research, Tulane University."
   location         : "New Orleans, Lousiana"
   employer         : "Tulane University"
   uri              : # URL
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "https://x.com/gontrerasa" # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
