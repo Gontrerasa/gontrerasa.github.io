@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-Click here to see my [CV](CV__Gonzalo_Contreras.pdf)
+Click here to see my [CV](files/CV__Gonzalo_Contreras.pdf)
 
 Education
 ======
