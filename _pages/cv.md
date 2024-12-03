@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Working Paper](/files/pdf/CV__Gonzalo_Contreras.pdf)
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
