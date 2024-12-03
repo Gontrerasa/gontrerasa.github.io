@@ -7,5 +7,5 @@ redirect_from:
   - /resume
 ---
 
-Click here to see my [CV](files/CV__Gonzalo_Contreras.pdf)
+Click here to see my [C](files/CV__Gonzalo_Contreras.pdf)
 
