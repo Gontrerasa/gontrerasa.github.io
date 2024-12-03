@@ -10,7 +10,7 @@ div.highlighter-rouge, figure.highlight {
   border-radius: $border-radius;
   background-color: $code-background-color;
   box-shadow: $box-shadow;
-  font-size: $type-size-4;
+  font-size: $type-size-2;
 
   &:before {
     position: absolute;
@@ -20,7 +20,7 @@ div.highlighter-rouge, figure.highlight {
     background-color: $lighter-gray;
     content: "\f121";
     font-family: "Font Awesome 6 Free" !important;
-    font-size: $type-size-6;
+    font-size: $type-size-4;
     line-height: 1;
     text-transform: none;
     speak: none;
@@ -29,7 +29,7 @@ div.highlighter-rouge, figure.highlight {
   .highlight {
     margin: 0;
     font-family: $monospace;
-    font-size: $type-size-3;
+    font-size: $type-size-4;
     line-height: 1.8;
   }
 }
