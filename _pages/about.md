@@ -2,10 +2,8 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
+
 <body>
     <h2>About Me</h2>
     </p>
