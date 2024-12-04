@@ -1,12 +1,15 @@
 ---
 permalink: /
-title: "About Me"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
+<body>
+    <h2>About Me</h2>
+    </p>
+    <p>
 I hold a DPhil in Politics from the University of Oxford. I am currently a Postdoctoral Fellow at the Center for Inter-American Policy & Research (CIPR), Tulane University, and an Adjunct Researcher at the Núcleo Milenio para el Estudio de la Política, Opinión Pública y Medios en Chile (MEPOP).
 
 My research agenda is in the field of Comparative Politics, with a particular interest in the politics of representation, political organizations, democratic accountability, and citizen involvement in politics. My work has been published or is forthcoming in *Comparative Political Studies*, *Democratization*, *Electoral Studies*, *Policy Studies*, *Journal of Ethnic and Migration Studies*, *Política y Gobierno*, and *Revista de Ciencia Política*, among other journals. You can see all my articles on my [research page](https://gontrerasa.github.io/publications/).
