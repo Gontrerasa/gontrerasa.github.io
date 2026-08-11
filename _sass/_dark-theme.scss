@@ -129,7 +129,7 @@ a {
 }
 
 .author__urls {
-  background: $dark-surface;
+  background: $dark-bg;
   border-color: $dark-border;
   box-shadow: 0 0 10px rgba(#000, 0.5);
 
@@ -138,7 +138,16 @@ a {
   }
 
   &:after {
-    border-color: $dark-surface transparent;
+    border-color: $dark-bg transparent;
+  }
+
+  /* On wide screens this list is rendered inline in the sidebar rather than as
+     a dropdown, so it must stay transparent — a background here shows up as a
+     lighter slab sitting on the page. */
+  @include breakpoint($large) {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
   }
 
   a {
@@ -325,4 +334,40 @@ iframe {
     color: $dark-blue;
     margin-right: 0.5em;
   }
+}
+
+/* Section headings on the Working Papers page */
+.pub-section {
+  margin-top: 2em;
+}
+
+
+/* Layout and typography tweaks
+   --------------------------------------------------------------------------
+   Kept here rather than edited into the theme partials, so all site-specific
+   customisation lives in one file.
+   ========================================================================== */
+
+/* Base type scale. Monospace sets wider than the sans-serif this theme was
+   designed around, so the stock 16/18px runs large — knocked back one step. */
+html {
+  font-size: 14px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+}
+
+/* Larger profile photo (theme default is 175px). */
+.author__avatar img {
+  max-width: 220px;
+}
+
+/* The sidebar keeps the theme's sans-serif by default; align it with the
+   monospace used everywhere else. */
+.sidebar .author__name,
+.sidebar p,
+.sidebar li,
+.author__urls-wrapper {
+  font-family: $vscode-mono;
 }
