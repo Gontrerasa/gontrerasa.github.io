@@ -121,9 +121,14 @@ a {
   color: $dark-text;
 }
 
-.author__bio,
 .author__urls li {
   color: $dark-text-muted;
+}
+
+/* Sits directly under the photo; the muted grey read too dark there, so this
+   uses the softer body tone rather than the meta tone. */
+.author__bio {
+  color: $dark-text-soft;
 }
 
 .author__avatar img {
@@ -338,10 +343,9 @@ iframe {
   }
 }
 
-/* Publication year, set at the end of each entry. */
+/* Publication year, set at the end of each entry. Deliberately styled the same
+   as the surrounding citation; the span exists only to stop it wrapping. */
 .pub-year {
-  color: $dark-blue;
-  font-weight: 600;
   white-space: nowrap;
 }
 
