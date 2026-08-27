@@ -17,8 +17,11 @@ $serif                      : Georgia, Times, serif;
 $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
-/* VS Code default editor font (Windows) */
+/* VS Code default editor font (Windows) — kept for links, code and DOIs */
 $vscode-mono                : Consolas, "Courier New", monospace;
+
+/* Body typeface (Google Fonts; loaded in _includes/head/custom.html) */
+$rethink-sans               : "Rethink Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
 
 /* sans serif typefaces */
 $sans-serif-narrow          : $sans-serif;
@@ -31,9 +34,9 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 
-$global-font-family         : $vscode-mono;
-$header-font-family         : $vscode-mono;
-$caption-font-family        : $vscode-mono;
+$global-font-family         : $rethink-sans;
+$header-font-family         : $rethink-sans;
+$caption-font-family        : $rethink-sans;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px

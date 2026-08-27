@@ -13,14 +13,15 @@ html {
 body {
   background-color: $dark-bg;
   color: $dark-text;
-  font-family: $vscode-mono;
+  font-family: $rethink-sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5, h6 {
   color: $dark-blue;
-  font-family: $vscode-mono;
+  font-family: $rethink-sans;
+  letter-spacing: -0.01em;
 }
 
 ::selection {
@@ -47,8 +48,9 @@ a {
   }
 }
 
-/* Long DOIs are set in monospace and must be allowed to wrap, or they
-   overflow the content column on narrow screens. */
+/* URLs stay monospace even though the body is sans-serif: this is the LaTeX
+   \url{} convention. Long DOIs must also be allowed to wrap, or they overflow
+   the content column on narrow screens. */
 .page__content a[href^="http"],
 .archive__item a[href^="http"] {
   font-family: $vscode-mono;
@@ -336,6 +338,13 @@ iframe {
   }
 }
 
+/* Publication year, set at the end of each entry. */
+.pub-year {
+  color: $dark-blue;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 /* Section headings on the Working Papers page */
 .pub-section {
   margin-top: 2em;
@@ -348,8 +357,9 @@ iframe {
    customisation lives in one file.
    ========================================================================== */
 
-/* Base type scale. Monospace sets wider than the sans-serif this theme was
-   designed around, so the stock 16/18px runs large — knocked back one step. */
+/* Base type scale, reduced from the theme's stock 16/18px at his request.
+   Originally set to offset the width of the monospace body face; kept at the
+   same values after the switch to Rethink Sans. */
 html {
   font-size: 14px;
 
@@ -363,11 +373,10 @@ html {
   max-width: 220px;
 }
 
-/* The sidebar keeps the theme's sans-serif by default; align it with the
-   monospace used everywhere else. */
+/* Align the sidebar with the body typeface. */
 .sidebar .author__name,
 .sidebar p,
 .sidebar li,
 .author__urls-wrapper {
-  font-family: $vscode-mono;
+  font-family: $rethink-sans;
 }
